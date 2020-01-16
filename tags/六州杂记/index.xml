@@ -6,28 +6,10 @@
     <description>Recent content in 六州杂记 on 醍醐堂記_TihuBlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 16 Jan 2020 18:39:56 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jan 2020 23:43:20 +0800</lastBuildDate>
     
 	<atom:link href="https://tihu.me/tags/%E5%85%AD%E5%B7%9E%E6%9D%82%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>第一个blog更新脚本</title>
-      <link>https://tihu.me/post/2020/2020-01-16-firstSH/</link>
-      <pubDate>Thu, 16 Jan 2020 18:39:56 +0800</pubDate>
-      
-      <guid>https://tihu.me/post/2020/2020-01-16-firstSH/</guid>
-      <description>尝试写了一个很弱智的可执行脚本.sh 试一下。同时重命名了2020年的blog文件名。 cd ~ cd $ hugo #执行hugo编译动作 git pull (仓库A地址) master git add . git commit -m &#39; Updated source files&#39; git push origin master cd public git pull (仓库B地址) master git add . git commit -m &#39;Update a blog&#39; git push origin master date=$(date +%Y%m%d%H%M)</description>
-    </item>
-    
-    <item>
-      <title>跌跌撞撞地搞定了使用git同步代码仓库</title>
-      <link>https://tihu.me/post/2020/2020-01-16-githugo/</link>
-      <pubDate>Thu, 16 Jan 2020 17:35:26 +0800</pubDate>
-      
-      <guid>https://tihu.me/post/2020/2020-01-16-githugo/</guid>
-      <description>git方式更新blog 昨天立项flag，必须搞定git更新Hugo-blog，因为我发现由于历史文件过多，之前使用web方式更新的笨办法已经完全行不通了。hugo作为一个编译静态文件的blog程序，每当我新增一篇log，就有若干个文件发生了变化，如果我还用旧办法上传更新，简直要累</description>
-    </item>
     
     <item>
       <title>正则表达式</title>
@@ -49,10 +31,10 @@
     
     <item>
       <title>一只球拍</title>
-      <link>https://tihu.me/post/2018/1racket201801/</link>
+      <link>https://tihu.me/post/2018/2018-01-18-1racket/</link>
       <pubDate>Thu, 18 Jan 2018 08:36:54 +0000</pubDate>
       
-      <guid>https://tihu.me/post/2018/1racket201801/</guid>
+      <guid>https://tihu.me/post/2018/2018-01-18-1racket/</guid>
       <description>2017年12月的时候，我收到一只拍子。一只乒乓球板。距离上次见这只拍子的制作者又有两年了。 哥伦比亚大学访问学者Casa Wong先生是一位独立的研究员和艺术家。他的研究方向是从意大利文艺复兴到十九世纪末的科学绘画史。他的另一个身份是北美TOP5的独立乒乓球制板师，并创建个人厂牌“</description>
     </item>
     
@@ -67,37 +49,37 @@
     
     <item>
       <title>2014下半年起点小说私人推荐</title>
-      <link>https://tihu.me/post/2019/wangwen2014h2/</link>
+      <link>https://tihu.me/post/2014/2014-12-25-wangwen/</link>
       <pubDate>Thu, 25 Dec 2014 08:36:54 +0000</pubDate>
       
-      <guid>https://tihu.me/post/2019/wangwen2014h2/</guid>
+      <guid>https://tihu.me/post/2014/2014-12-25-wangwen/</guid>
       <description>2014年我仍然阅读了大量的起点小说，耗费的时间和金钱颇多，收获也不少，不过感觉过于耗费精力，明年会减少网络小说的阅读。在我每天固定的两个阅读时间段（清晨，晚间），起点几乎占据了半壁江山。所以2014年实体书的阅读明显下降（这也与购买了大量kindle电子书有关。） 但我看过的起点</description>
     </item>
     
     <item>
       <title>患病的猫</title>
-      <link>https://tihu.me/post/2014/cat201402/</link>
+      <link>https://tihu.me/post/2014/2014-02-20-cat/</link>
       <pubDate>Thu, 20 Feb 2014 08:36:54 -0700</pubDate>
       
-      <guid>https://tihu.me/post/2014/cat201402/</guid>
+      <guid>https://tihu.me/post/2014/2014-02-20-cat/</guid>
       <description>我有位要好的朋友，从七年前来蓉一直到去年回东北，身边都养着两只收养来的猫咪。在我所有养宠物的朋友里，她算是对自己的“孩子”最溺爱的了。过去几个月来，我在微博上一步步见证了其中一只名叫“小宝”的猫咪从发现异常、到患病严重、最后走到生命尽头的过程。她对宠物的感情和关切，宠物在她的世界</description>
     </item>
     
     <item>
       <title>甲午年正月读书笔记：移动互联时代的新阅读习惯</title>
-      <link>https://tihu.me/post/2019/readby201401/</link>
+      <link>https://tihu.me/post/2014/2014-02-06-readby/</link>
       <pubDate>Thu, 06 Feb 2014 08:36:54 -0700</pubDate>
       
-      <guid>https://tihu.me/post/2019/readby201401/</guid>
+      <guid>https://tihu.me/post/2014/2014-02-06-readby/</guid>
       <description>因为年底工作不是特别繁忙，晚上基本上不用熬夜赶工，所以我的整体阅读量有所增长。其中实体书读毕和在读的有五册，占总阅读册数的50%，主要是与工作和互联网相关的书籍；Kindle上为了看电影《安德的游戏》而重看了原著，以及继续在读“细说历史”系列；手机端陆续开了几部新的起点文来读，都</description>
     </item>
     
     <item>
       <title>也说每天一千字</title>
-      <link>https://tihu.me/post/2014/1000word/</link>
+      <link>https://tihu.me/post/2014/2014-02-04-1000word/</link>
       <pubDate>Tue, 04 Feb 2014 08:36:54 -0700</pubDate>
       
-      <guid>https://tihu.me/post/2014/1000word/</guid>
+      <guid>https://tihu.me/post/2014/2014-02-04-1000word/</guid>
       <description>最近看到简叔、佩妈等人连续写了若干篇如何坚持每天写作的文字，虽然我已经整整一年没有写小说了，但还是忍不住也想唠两句；正好赶上新年伊始，所有拖延症患者妄想结束自己病征的日子就在眼前，就算是为自己新年写作开个头吧。 写作如同阅读，日积月累方有所得；写作就像健身，持之以恒才见成效。大家都</description>
     </item>
     
