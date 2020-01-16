@@ -6,10 +6,19 @@
     <description>Recent content in Cyber Life on 醍醐堂記_TihuBlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 16 Jan 2020 18:39:56 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jan 2020 01:36:39 +0800</lastBuildDate>
     
 	<atom:link href="https://tihu.me/tags/Cyber-Life/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo成功添加添加评论组件Utterances</title>
+      <link>https://tihu.me/post/2020/2020-01-17-comment/</link>
+      <pubDate>Fri, 17 Jan 2020 01:36:39 +0800</pubDate>
+      
+      <guid>https://tihu.me/post/2020/2020-01-17-comment/</guid>
+      <description>我是用的这套hugo theme maupassant作者默认支持了两种评论系统，disqus和Utterances disqus安装失败，估计和其他blogger说的一样，被墙了。其实我已经注册成功，但配置以后一直不显示评论框。于是今晚试了一下Utterances，一击成功！复述一下配置过程</description>
+    </item>
     
     <item>
       <title>第一个blog更新脚本</title>

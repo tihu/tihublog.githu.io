@@ -6,20 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>马昇 | 醍醐堂記_TihuBlog</title>
-    <meta property="og:title" content="马昇 - 醍醐堂記_TihuBlog">
+    <title>Hugo成功添加添加评论组件Utterances | 醍醐堂記_TihuBlog</title>
+    <meta property="og:title" content="Hugo成功添加添加评论组件Utterances - 醍醐堂記_TihuBlog">
     <meta property="og:type" content="article">
         
-    <meta property="article:published_time" content='2019-01-12T08:36:54&#43;08:00'>
+    <meta property="article:published_time" content='2020-01-17T01:36:39&#43;08:00'>
         
         
-    <meta property="article:modified_time" content='2019-01-12T08:36:54&#43;08:00'>
+    <meta property="article:modified_time" content='2020-01-17T01:36:39&#43;08:00'>
         
     <meta name="Keywords" content="tihu,志怪,阅读,笔记体,南北朝">
-    <meta name="description" content="马昇">
+    <meta name="description" content="Hugo成功添加添加评论组件Utterances">
         
     <meta name="author" content="tihu">
-    <meta property="og:url" content="https://tihu.me/post/2019/2019-01-12-masheng/">
+    <meta property="og:url" content="https://tihu.me/post/2020/2020-01-17-comment/">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href='/css/normalize.css'>
@@ -175,10 +175,10 @@
 </script>
     <article class="post">
         <header>
-            <h1 class="post-title">马昇</h1>
+            <h1 class="post-title">Hugo成功添加添加评论组件Utterances</h1>
         </header>
         <date class="post-meta meta-date">
-            2019年1月12日
+            2020年1月17日
         </date>
         
         
@@ -189,18 +189,46 @@
         
         
         <div class="post-content">
-            <p>温江人马昇，九十年代末除恶打黑时被枪决。他小的时候很内向，总是一个人呆着，话也不多。他家世代屠户，每天马昇的父母在肉摊上忙活时，他就一个人在旁边玩耍。八九岁大小时，马昇在集市上遇见一个人，后来谁也回忆不起当时是怎样一个人，马昇自己也闭口不提，但从此以后，马昇不再吃肉，说话的次数也愈发少了。十二岁时，马昇早上出门上学，下午放学时却没有回家，从此再也没回过家。他的家人报案，一直没有侦破。吊诡的是，街坊甚至家里人偶然能在街上远远地看到马昇，颜貌如初，他会微微一笑，转眼便踪迹全无。
-就这样过了二十年，马昇突然回了家，身上穿着竟然是十二岁时的那套衣服，已经破烂不堪，勉强套在脖子上而已。家人问话，他也不多言，只说是跟师傅出去学本事了。带着去医院检查，甚至做了精神鉴定，都没什么问题。但已经三十多岁的人了，马昇也不出去做活路，就待在家里，似乎并没有什么本事。
-有一天全家人吃晚饭，马昇依旧只低头吃饭，并不说话。他奶奶低头念叨了一句，好想吃龙泉的枇杷噢。马昇听到话后耳朵一动，把筷子一搁就出去了，家人喊他也不应。过了没多久，马昇低着头提了个篮子进了屋，放在奶奶脚下。里边是满满一篮子枇杷，似乎是摘得匆忙，有些连枝杈叶子都扯下来了。从温江到龙泉至少有七十公里，当时还没有高速，开车至少要两个小时。
-后来马昇的父亲要开铺子做生意，却被人骗了钱。马昇便让父亲在家里坐着，告知他债人的姓名地址，取出一叠厚纸，用毛笔写了字迹投入火盆中。纸燃火灭，从灰烬中取出几颗金锭子，拿去金店折了现，正是那人欠钱的数目。当时民间骗局颇多，受害者众，马昇又帮家族其他几个也收不回欠债的亲戚依此法收回了钱。又过了没多久，公安便上了门，再过没几天，便传来了马昇被枪毙的死讯。</p>
-
+            <p>我是用的这套hugo theme <a href="https://github.com/flysnow-org/maupassant-hugo">maupassant</a>作者默认支持了两种评论系统，<em>disqus</em>和<a href="https://utteranc.es/?installation_id=6263895&amp;setup_action=install">Utterances</a></p>
+<p>disqus安装失败，估计和其他blogger说的一样，被墙了。其实我已经注册成功，但配置以后一直不显示评论框。于是今晚试了一下Utterances，一击成功！复述一下配置过程：</p>
+<ol>
+<li>在github新建一个仓库，可以命名为blog-comment</li>
+<li><a href="https://utteranc.es/?installation_id=6263895&amp;setup_action=install">Utterances</a>选择安装在这个仓库里；</li>
+<li>连接模式选择“pathname”；</li>
+<li>如果你的theme像我一样支持Utterances,那就好办了，将配置文件粘贴进config.toml就搞定了，评论的Repo写成自己的仓库名，格式为 owner/repo ，比如我的就是“tihu/tihu-blog-comment”。</li>
+</ol>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml">[params.utteranc]
+    enable = true
+    repo = &#34;tihu/tihu-blog-comment&#34;    # 存储评论的Repo，格式为 owner/repo
+    issueTerm = &#34;pathname&#34;  #表示你选择以那种方式让github issue的评论和你的文章关联。
+    theme = &#34;github-dark&#34; # 样式主题，有六种样式，基本够用了。
+</code></pre></td></tr></table>
+</div>
+</div><p>5.如果不直接支持，那就得折腾一下了，主要难点在于要修改theme对应页面片的样式，不过Utterances在安装页面已经帮你生成好代码片段了，复制粘贴即可；</p>
+<pre><code class="language-script" data-lang="script">&lt;script src=&quot;https://utteranc.es/client.js&quot;
+        repo=&quot;tihu/tihu-blog-comment&quot;
+        issue-term=&quot;pathname&quot;
+        theme=&quot;dark-blue&quot;
+        crossorigin=&quot;anonymous&quot;
+        async&gt;
+&lt;/script&gt;
+</code></pre>
         </div>
 
         
 <div class="post-archive">
     <ul class="post-copyright">
         <li><strong>原文作者：</strong><a rel="author" href="https://tihu.me">tihu</a></li>
-        <li style="word-break:break-all"><strong>原文链接：</strong><a href="https://tihu.me/post/2019/2019-01-12-masheng/">https://tihu.me/post/2019/2019-01-12-masheng/</a></li>
+        <li style="word-break:break-all"><strong>原文链接：</strong><a href="https://tihu.me/post/2020/2020-01-17-comment/">https://tihu.me/post/2020/2020-01-17-comment/</a></li>
         <li><strong>版权声明：</strong>本作品采用<a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议</a>进行许可，非商业转载请注明出处（作者，原文链接），商业转载请联系作者获得授权。</li>
     </ul>
 </div>
@@ -214,15 +242,15 @@
     <h2>See Also</h2>
     <ul class="listing">
         
-        <li><a href="/post/2019/2019-01-10-panxianer/">潘仙儿</a></li>
+        <li><a href="/post/2020/2020-01-16-firstSH/">第一个blog更新脚本</a></li>
         
-        <li><a href="/post/2019/2019-01-09-xueyin/">雪银</a></li>
+        <li><a href="/post/2020/2020-01-16-githugo/">跌跌撞撞地搞定了使用git同步代码仓库</a></li>
         
-        <li><a href="/post/2019/2019-01-09-heiyao/">黑匙</a></li>
+        <li><a href="/post/2014/2014-12-25-webtools/">移动端Web开发工具小汇之二</a></li>
         
-        <li><a href="/post/2019/2019-01-05-yugou/">玉犬</a></li>
+        <li><a href="/post/2014/2014-12-24-webtools/">移动端Web开发工具小汇之一</a></li>
         
-        <li><a href="/post/2019/2019-01-09-cunnv/">译异录之村女</a></li>
+        <li><a href="/post/2014/2014-04-15-mobile/">移动端应用分享速记</a></li>
         
     </ul>
 </div>
@@ -232,7 +260,7 @@
             
             <ul class="clearfix">
                 
-                <li><a href='https://tihu.me/tags/%E6%88%90%E9%83%BD%E5%BC%82%E9%97%BB%E6%9D%82%E5%BD%95'>成都异闻杂录</a></li>
+                <li><a href='https://tihu.me/tags/Cyber-Life'>Cyber Life</a></li>
                 
             </ul>
             
