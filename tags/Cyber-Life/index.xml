@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cyber Life on 醍醐堂記_TihuBlog</title>
+    <link>https://tihu.me/tags/Cyber-Life/</link>
+    <description>Recent content in Cyber Life on 醍醐堂記_TihuBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 25 Dec 2014 08:36:54 +0000</lastBuildDate>
+    
+	<atom:link href="https://tihu.me/tags/Cyber-Life/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>移动端Web开发工具小汇之二</title>
+      <link>https://tihu.me/post/2019/webtools201402/</link>
+      <pubDate>Thu, 25 Dec 2014 08:36:54 +0000</pubDate>
+      
+      <guid>https://tihu.me/post/2019/webtools201402/</guid>
+      <description>这一篇讲讲WEB开发中设计师用到的工具，基本涉及了设计师工作的全流程。事实上，一个团队的做事风格很大程度上取决于leader的背景，核心是设计与核心是技术的团队，做事风格也不尽相同。在很多一流团队中，设计师起到了灵魂作用，因而也出现了“设计主导产品流”。在现在的团队中，对设计师的</description>
+    </item>
+    
+    <item>
+      <title>移动端Web开发工具小汇之一</title>
+      <link>https://tihu.me/post/2019/webtools201401/</link>
+      <pubDate>Wed, 24 Dec 2014 08:36:54 +0000</pubDate>
+      
+      <guid>https://tihu.me/post/2019/webtools201401/</guid>
+      <description>上周在北京听了一位大牛的内部分享，回来整理了一下手头现在移动端web开发的工具流。以下文字基本都是copy官方说明。 //部分才是我的补充。一切工具和工作流都是围绕【产品】→【设计】→【前端】→【测试】→【交付】这个体系循环进行的。 GitHub 存放使用Git版本控制的软件代码和内容项目。除了</description>
+    </item>
+    
+    <item>
+      <title>手机常用高频应用(2014)</title>
+      <link>https://tihu.me/post/2019/moblieapps2014/</link>
+      <pubDate>Sun, 23 Feb 2014 08:36:54 +0000</pubDate>
+      
+      <guid>https://tihu.me/post/2019/moblieapps2014/</guid>
+      <description>春节前手机刷了不干净的“冰激淋三明治”，删不掉的垃圾Apps不说，耗电量还极高，早晨满电出门，到公司就剩60%的电量了。凑活了一个月，重新刷了“果冻豆”。在同步通讯录，重装Apps的静默期，盘点了一下手机上安装的应用，连同系统自带的短信电话一齐，竟有八十九个图标之多（有多少人数过</description>
+    </item>
+    
+  </channel>
+</rss>

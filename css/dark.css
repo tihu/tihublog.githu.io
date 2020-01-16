@@ -1,0 +1,15 @@
+.btn-dark { position: fixed; right: 20px; top: 20px; width: 24px; height: 24px; text-align: center; line-height: 24px; font-size: 12px; border: 1px solid #666; border-radius: 50%; }
+.darkstyle { background-color: #333; color: #999; }
+.darkstyle #logo,
+.darkstyle #nav-menu a { color: #EEE; }
+.darkstyle .post-title,
+.darkstyle .post-content,
+.darkstyle .post-title a,
+.darkstyle  a { color: #DDD }
+.darkstyle .post-content blockquote,
+.darkstyle .post-content blockquote:before,
+.darkstyle .post-content a { color: #999; }
+.darkstyle .post-copyright { background-color: #666; border-left: 3px solid #999; }
+.darkstyle .post-copyright a { color: #DDD; }
+.darkstyle .meta-tags ul a { background-color: #666; }
+.darkstyle .meta-tags ul a:before { border-right-color: #666; }

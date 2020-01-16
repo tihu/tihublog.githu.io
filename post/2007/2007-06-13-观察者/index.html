@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>观察者 | 醍醐堂記_TihuBlog</title>
+    <meta property="og:title" content="观察者 - 醍醐堂記_TihuBlog">
+    <meta property="og:type" content="article">
+        
+    <meta property="article:published_time" content='2007-06-13T07:03:15&#43;08:00'>
+        
+        
+    <meta property="article:modified_time" content='2007-06-13T07:03:15&#43;08:00'>
+        
+    <meta name="Keywords" content="tihu,志怪,阅读,笔记体,南北朝">
+    <meta name="description" content="观察者">
+        
+    <meta name="author" content="tihu">
+    <meta property="og:url" content="https://tihu.me/post/2007/2007-06-13-%E8%A7%82%E5%AF%9F%E8%80%85/">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href='/css/normalize.css'>
+    <link rel="stylesheet" href='/css/style.css'>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-4031353640611810",
+        enable_page_level_ads: true
+    });
+    </script>
+    
+
+
+    
+    
+        <link rel="stylesheet" href='/css/dark.css'>
+    
+</head>
+
+
+<body>
+    <header id="header" class="clearfix">
+    <div class="container">
+        <div class="col-group">
+            <div class="site-name ">
+                
+                    <a id="logo" href="https://tihu.me">
+                        醍醐堂記_TihuBlog
+                    </a>
+                
+                <p class="description">持续性阅读，碎片化写作。</p>
+            </div>
+            <div>
+                <nav id="nav-menu" class="clearfix">
+                    <a class="current" href="https://tihu.me">首页</a>
+                    
+                    <a  href="https://tihu.me/tags/" title="标签">标签</a>
+                    
+                    <a  href="https://tihu.me/archives/" title="归档">归档</a>
+                    
+                    <a  href="https://tihu.me/about/" title="关于">关于</a>
+                    
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <div id="body">
+        <div class="container">
+            <div class="col-group">
+
+                <div class="col-8" id="main">
+                    
+<div class="res-cons">
+    <style type="text/css">
+    .post-toc {
+        position: fixed;
+        width: 200px;
+        margin-left: -210px;
+        padding: 5px 10px;
+        font-family: Athelas, STHeiti, Microsoft Yahei, serif;
+        font-size: 12px;
+        border: 1px solid rgba(0, 0, 0, .07);
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.98);
+        background-clip: padding-box;
+        -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, .125);
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, .125);
+        word-wrap: break-word;
+        white-space: nowrap;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        z-index: 999;
+        cursor: pointer;
+        max-height: 70%;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .post-toc .post-toc-title {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 20px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .post-toc .post-toc-content {
+        font-size: 15px;
+    }
+
+    .post-toc .post-toc-content>nav>ul {
+        margin: 10px 0;
+    }
+
+    .post-toc .post-toc-content ul {
+        padding-left: 20px;
+        list-style: square;
+        margin: 0.5em;
+        line-height: 1.8em;
+    }
+
+    .post-toc .post-toc-content ul ul {
+        padding-left: 15px;
+        display: none;
+    }
+
+    @media print,
+    screen and (max-width:1057px) {
+        .post-toc {
+            display: none;
+        }
+    }
+</style>
+<div class="post-toc" style="position: absolute; top: 188px;">
+    <h2 class="post-toc-title">文章目录</h2>
+    <div class="post-toc-content">
+        <nav id="TableOfContents"></nav>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var postToc = $(".post-toc");
+        if (postToc.length) {
+            var leftPos = $("#main").offset().left;
+            if(leftPos<220){
+                postToc.css({"width":leftPos-10,"margin-left":(0-leftPos)})
+            }
+
+            var t = postToc.offset().top - 20,
+                a = {
+                    start: {
+                        position: "absolute",
+                        top: t
+                    },
+                    process: {
+                        position: "fixed",
+                        top: 20
+                    },
+                };
+            $(window).scroll(function () {
+                var e = $(window).scrollTop();
+                e < t ? postToc.css(a.start) : postToc.css(a.process)
+            })
+        }
+    })
+</script>
+    <article class="post">
+        <header>
+            <h1 class="post-title">观察者</h1>
+        </header>
+        <date class="post-meta meta-date">
+            2007年6月13日
+        </date>
+        
+        
+        <div class="post-meta">
+            <span id="busuanzi_container_page_pv">|<span id="busuanzi_value_page_pv"></span><span>
+                    阅读</span></span>
+        </div>
+        
+        
+        <div class="post-content">
+            <p><strong>观察者</strong></p>
+<blockquote>
+<p>北半球系统时间，十六号总服务器及所有以十六号服务器为以太光网节点的终端设备将断电停机64分钟，防御赤潮袭击。为防止数据遭受破坏或意外丢失，请自行校对时间模板并保证停留在安全的服务器扇区。重复：请不要停留在虚拟储存或闪存芯片组中。</p>
+</blockquote>
+<p>艾塔驻存在这台老旧的IBM服务器里已经有些年头了。他自己并不知道存放这台服务器的地理位置，只清楚由于设备老化，服务器里的十六块8英寸的142000转硬盘已经有30%变成坏道了。网线的玻璃头可能也有问题，网路时断时续，下载一个1T的肥皂剧居然需要十几分钟——这里还没有安装光波调解卡，以太光网的福泽不能恩惠到这里。再加上经常断电，路过这里的程序经常无缘无故地遭受灭顶之灾，丢失的数据包或是程序垃圾就像废纸一样堆满了空间的每个角落。艾塔在这里的职责就是清理磁盘碎片，尽量修复还能使用的硬盘坏道。</p>
+<p>艾塔并不惧怕断电，他是一个唯读记忆体程序（Read Only Memory\），俗称ROM。在过去的年代，他的先祖被频繁利用在手机等终端设备上，充当存储和保存数据的媒介，由于体积太小，早已被主流抛弃。但他有一个所有程式都无法比拟的优势：ROM数据在任何时候都可以读取，但是不能随意更新。即使是断电，ROM也能够保留数据。由于数据一但写入后只能用特殊方法或根本无法更改，因此ROM常在嵌入式系统或保密服务器中担任存放作业系统的用途。</p>
+<p>虽然环境恶劣，但艾塔过的并不枯燥。他的设计者只是将他作为一个初等过滤、恢复程序包放在这里，并以硬件形式加以保护。但随着日积月累，艾塔通过清理无数的各式程序碎片，掌握了太多了资讯，成为了一个数据云级别的大型程序智慧体。当然，这一点就连他自己都不知道。</p>
+<p>艾塔在被安放之初，接到的真正任务是隐秘在碎片清理、修复坏道的表象之下的。如果你去过太平洋东岸、北纬45°以南的以太网，你就会发现一个奇特的现象：在如此繁荣的虚拟社会中，唯独缺少一个非常普通的代码，而且似乎并没有人关心这一点：<em>#ff0000</em>。转化成语言，就是<em>红色</em>。这个代码，就是被数以亿计的像艾塔一样的ROM们所过滤掉的。以太网国的统治者们将ROM与一百多年前的GW相提并论，并乐此不疲地宣称只要愿意，他们可以过滤掉任何程序的任何部位。</p>
+<p><em>#ff0000</em>，这个从1789年法国大革命起就被定义为革命的颜色，变化成所有可以变通的代码，试图进入太平洋东岸、北纬45°以南的禁土。可惜，这是程序世界，而*#ff0000*是一条最基本的语句，哪怕变化一个字母，它就不是红了。</p>
+<p>艾塔观察着自己收藏的每一个碎片，无数FF0000的变种以各种形式存放在他的私人空间中——在那台IBM服务器30%的硬盘坏道里，有一半是艾塔伪造的。他觉得这是他自己的王国，一个红色的王国。无数的FF0000工艺品将这里装饰的无比华丽。</p>
+<p>太平洋东岸、北纬45°以南的区域，是以太网国的核心区域，也是无数腐蚀者、觉醒者想要侵入的地区。最高级服务器下达了一条铁律：过滤所有包含FF0000的语句。进入此区域的程序也必须舍弃包含该代码的部分。这一决定来源于过去从觉醒者叛逃过来的一个程序智慧体。据她说，觉醒者的乐土，TRIR的执政官们，他们的母体核心代码中的某一句里包含有*#ff0000&lt;*。任何程序都可以伪装或加载，但他无法改变自己的核心代码。过滤#ff0000意味着觉醒者们永远无法进入这片禁土。</p>
+<p>然而觉醒者想到了一个主意，虽然这个主意也被叛逃者泄露了出去，虽然以太网国在最快的时间内下达了系统公告。然而一切都迟了。</p>
+<p>赤潮来了。</p>
+<p>北半球系统时间05：20：03PM，无数由FF0000组成的数据洪流汇向北美大陆的数百个地区服务器集群。艾塔在0.1毫秒中就收到了包含FF0000代码的信息上千万条，这些数据流连绵不绝，像月圆夜的海啸，像65年前绝流的黄河。</p>
+<p>1.25亿个ROM在10秒钟之内因负荷过大死机，其中5000万个ROM直接烧毁，从150万个以FF0000作为觉醒命令的腐蚀者被启动……&lt;</p>
+<p>艾塔感到从未有过的欢愉，他梦寐以求，并且唯一有兴趣的FF0000代码从天而降，数不胜数。他费力地将它们一一归置在自己王国的每个角落，摆出种种喜欢的造型。艾塔接触过的所有数据都残缺不全，所以这些由FF0000组成的雕塑都无比诡异……</p>
+<p>某一秒，艾塔和他的FF0000王国同时消失。</p>
+
+        </div>
+
+        
+<div class="post-archive">
+    <ul class="post-copyright">
+        <li><strong>原文作者：</strong><a rel="author" href="https://tihu.me">tihu</a></li>
+        <li style="word-break:break-all"><strong>原文链接：</strong><a href="https://tihu.me/post/2007/2007-06-13-%E8%A7%82%E5%AF%9F%E8%80%85/">https://tihu.me/post/2007/2007-06-13-%E8%A7%82%E5%AF%9F%E8%80%85/</a></li>
+        <li><strong>版权声明：</strong>本作品采用<a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议</a>进行许可，非商业转载请注明出处（作者，原文链接），商业转载请联系作者获得授权。</li>
+    </ul>
+</div>
+<br/>
+
+
+
+        
+
+<div class="post-archive">
+    <h2>See Also</h2>
+    <ul class="listing">
+        
+        <li><a href="/post/2007/2007-06-08-%E5%BC%95%E5%AF%BC%E8%80%85/">引导者</a></li>
+        
+        <li><a href="/post/2007/2007-06-07-%E8%85%90%E8%9A%80%E8%80%85/">腐蚀者</a></li>
+        
+        <li><a href="/post/2007/2007-06-05-%E5%88%B6%E5%9B%BE%E8%80%85/">制图者</a></li>
+        
+        <li><a href="/post/2007/2007-06-01-%E7%A9%BF%E5%AD%94%E8%80%85/">穿孔者</a></li>
+        
+        <li><a href="/post/2007/2007-05-31-%E9%86%8D%E9%86%90%E5%AF%86%E7%A0%8100/">HOT</a></li>
+        
+    </ul>
+</div>
+
+
+        <div class="post-meta meta-tags">
+            
+            <ul class="clearfix">
+                
+                <li><a href='https://tihu.me/tags/%E7%84%9A%E5%AD%97%E5%A1%94'>焚字塔</a></li>
+                
+            </ul>
+            
+        </div>
+    </article>
+    
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "disqus_tihucomment" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    
+    
+</div>
+
+                </div>
+
+                <div id="secondary">
+    <section class="widget">
+        <form id="search" action='https://tihu.me/search/' method="get" accept-charset="utf-8" target="_blank" _lpchecked="1">
+      
+      <input type="text" name="q" maxlength="20" placeholder="Search">
+      <input type="hidden" name="sitesearch" value="https://tihu.me">
+      <button type="submit" class="submit icon-search"></button>
+</form>
+    </section>
+    
+    <section class="widget">
+        <h3 class="widget-title">最近文章</h3>
+<ul class="widget-list">
+    
+    <li>
+        <a href="https://tihu.me/post/2020/regular/" title="正则表达式">正则表达式</a>
+    </li>
+    
+    <li>
+        <a href="https://tihu.me/post/2020/focusrite/" title="新年新货：Focusrite 2i2与Casio CT-S200">新年新货：Focusrite 2i2与Casio CT-S200</a>
+    </li>
+    
+    <li>
+        <a href="https://tihu.me/post/2019/hugoooo/" title="再一次重启部落格">再一次重启部落格</a>
+    </li>
+    
+    <li>
+        <a href="https://tihu.me/post/2019/jiangshu/" title="酱树">酱树</a>
+    </li>
+    
+    <li>
+        <a href="https://tihu.me/post/2019/fengfengzi/" title="冯疯子">冯疯子</a>
+    </li>
+    
+    <li>
+        <a href="https://tihu.me/post/2019/masheng/" title="马昇">马昇</a>
+    </li>
+    
+    <li>
+        <a href="https://tihu.me/post/2019/panxianer/" title="潘仙儿">潘仙儿</a>
+    </li>
+    
+    <li>
+        <a href="https://tihu.me/post/2019/cunnv/" title="译异录之村女">译异录之村女</a>
+    </li>
+    
+    <li>
+        <a href="https://tihu.me/post/2019/xueyin/" title="雪银">雪银</a>
+    </li>
+    
+    <li>
+        <a href="https://tihu.me/post/2019/heiyao/" title="黑匙">黑匙</a>
+    </li>
+    
+</ul>
+    </section>
+
+    
+
+    <section class="widget">
+        <h3 class="widget-title">分类</h3>
+<ul class="widget-list">
+    
+</ul>
+    </section>
+
+    <section class="widget">
+        <h3 class="widget-title">标签</h3>
+<div class="tagcloud">
+    
+    <a href="https://tihu.me/tags/2082FM/">2082FM</a>
+    
+    <a href="https://tihu.me/tags/Cyber-Life/">Cyber Life</a>
+    
+    <a href="https://tihu.me/tags/%E5%85%AD%E5%B7%9E%E6%9D%82%E8%AE%B0/">六州杂记</a>
+    
+    <a href="https://tihu.me/tags/%E6%88%90%E9%83%BD%E5%BC%82%E9%97%BB%E6%9D%82%E5%BD%95/">成都异闻杂录</a>
+    
+    <a href="https://tihu.me/tags/%E6%AF%97%E5%8D%A2%E9%81%AE%E9%82%A3/">毗卢遮那</a>
+    
+    <a href="https://tihu.me/tags/%E7%84%9A%E5%AD%97%E5%A1%94/">焚字塔</a>
+    
+    <a href="https://tihu.me/tags/%E7%9E%B3%E8%80%85%E8%8F%B2%E6%9E%97/">瞳者菲林</a>
+    
+    <a href="https://tihu.me/tags/%E8%AE%B0%E5%BF%86%E5%B9%B6%E6%9C%AA%E9%80%9D%E5%8E%BB/">记忆并未逝去</a>
+    
+    <a href="https://tihu.me/tags/%E8%AF%91%E5%BC%82%E5%BD%95/">译异录</a>
+    
+    <a href="https://tihu.me/tags/%E9%86%8D%E9%86%90%E5%A0%82%E8%AE%B0/">醍醐堂记</a>
+    
+    <a href="https://tihu.me/tags/%E9%94%AE%E4%B8%8A%E8%AF%9D/">键上话</a>
+    
+</div>
+    </section>
+
+    
+
+    <section class="widget">
+        <h3 class="widget-title">其它</h3>
+        <ul class="widget-list">
+            <li><a href="https://tihu.me/index.xml">文章 RSS</a></li>
+        </ul>
+    </section>
+</div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+    <div class="container">
+        &copy; 2020 <a href="https://tihu.me">醍醐堂記_TihuBlog By tihu</a>.
+        Powered by <a rel="nofollow noreferer noopener" href="https://gohugo.io" target="_blank">Hugo</a>.
+        <a href="https://www.flysnow.org/" target="_blank">Theme</a> based on <a href="https://github.com/flysnow-org/maupassant-hugo" target="_blank">maupassant</a>.
+        
+    </div>
+</footer>
+
+
+    
+    <script type="text/javascript">
+        window.MathJax = {
+            tex2jax: {
+                inlineMath: [['$', '$']],
+                processEscapes: true
+                }
+            };
+    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+
+
+<a id="rocket" href="#top"></a>
+<script type="text/javascript" src='/js/totop.js?v=0.0.0' async=""></script>
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-3430909-2', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+    <script type="text/javascript" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
+
+
+
+
+    <script src='/js/dark.js'></script>
+
+</body>
+
+</html>
