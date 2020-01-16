@@ -6,10 +6,19 @@
     <description>Recent content in 六州杂记 on 醍醐堂記_TihuBlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 16 Jan 2020 17:35:26 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jan 2020 18:39:56 +0800</lastBuildDate>
     
 	<atom:link href="https://tihu.me/tags/%E5%85%AD%E5%B7%9E%E6%9D%82%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>第一个blog更新脚本</title>
+      <link>https://tihu.me/post/2020/2020-01-16-firstSH/</link>
+      <pubDate>Thu, 16 Jan 2020 18:39:56 +0800</pubDate>
+      
+      <guid>https://tihu.me/post/2020/2020-01-16-firstSH/</guid>
+      <description>尝试写了一个很弱智的可执行脚本.sh 试一下。同时重命名了2020年的blog文件名。 cd ~ cd $ hugo #执行hugo编译动作 git pull (仓库A地址) master git add . git commit -m &#39; Updated source files&#39; git push origin master cd public git pull (仓库B地址) master git add . git commit -m &#39;Update a blog&#39; git push origin master date=$(date +%Y%m%d%H%M)</description>
+    </item>
     
     <item>
       <title>跌跌撞撞地搞定了使用git同步代码仓库</title>
@@ -36,15 +45,6 @@
       
       <guid>https://tihu.me/post/2020/2020-01-15-focusrite/</guid>
       <description>2020新年，说是不花钱，但还是添置了两台设备，算是久未增加的大件儿了。 首先是在leanham（刘主任）的介绍下，买了一台外置声卡，牌子和型号是我自己选的：来自Focusrite的外置声卡*Focusrite Scarlett Studio 2i2(第3代)*套装。包含Scarlett 2i2外置声卡主机，一个</description>
-    </item>
-    
-    <item>
-      <title>第一个blog更新脚本</title>
-      <link>https://tihu.me/post/2020/2020-01-16-%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%9B%B4%E6%96%B0%E8%84%9A%E6%9C%AC/</link>
-      <pubDate>Wed, 15 Jan 2020 22:39:56 +0800</pubDate>
-      
-      <guid>https://tihu.me/post/2020/2020-01-16-%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%9B%B4%E6%96%B0%E8%84%9A%E6%9C%AC/</guid>
-      <description>尝试写了一个很弱智的可执行脚本.sh 试一下。同时重命名了2020年的blog文件名。 cd ~ cd $ hugo #执行hugo编译动作 git pull (仓库A地址) master git add . git commit -m &#39; Updated source files&#39; git push origin master cd public git pull (仓库B地址) master git add . git commit -m &#39;Update a blog&#39; git push origin master date=$(date +%Y%m%d%H%M)</description>
     </item>
     
     <item>
