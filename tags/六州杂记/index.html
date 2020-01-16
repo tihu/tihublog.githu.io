@@ -88,7 +88,7 @@
     <article class="post">
         <header>
             <h1 class="post-title">
-                <a href="https://tihu.me/post/2020/githugo/">跌跌撞撞地搞定了使用git同步代码仓库</a>
+                <a href="https://tihu.me/post/2020/2020-01-16-githugo/">跌跌撞撞地搞定了使用git同步代码仓库</a>
             </h1>
         </header>
         <date class="post-meta meta-date">
@@ -97,14 +97,14 @@
         
         <div class="post-content">
             git方式更新blog 昨天立项flag，必须搞定git更新Hugo-blog，因为我发现由于历史文件过多，之前使用web方式更新的笨办法已经完全行不通了。hugo作为一个编译静态文件的blog程序，每当我新增一篇log，就有若干个文件发生了变化，如果我还用旧办法上传更新，简直要累……
-            <p class="readmore"><a href="https://tihu.me/post/2020/githugo/">阅读全文</a></p>
+            <p class="readmore"><a href="https://tihu.me/post/2020/2020-01-16-githugo/">阅读全文</a></p>
         </div>
     </article>
     
     <article class="post">
         <header>
             <h1 class="post-title">
-                <a href="https://tihu.me/post/2020/regular/">正则表达式</a>
+                <a href="https://tihu.me/post/2020/2020-01-15-regular/">正则表达式</a>
             </h1>
         </header>
         <date class="post-meta meta-date">
@@ -113,14 +113,14 @@
         
         <div class="post-content">
             昨天在从深圳回来的路上，松哥帮了我大忙，用两则小小的正则表达式拯救了我。 首先能说出这句话，说明我还不是一名程序员，虽然html也摸了这么多年了。但会写html能叫自己是程序员吗？！ 自从我将2005年至2010年间的blog备份复活之后，一直在一点一点地整理混乱的文档格式，按着我的……
-            <p class="readmore"><a href="https://tihu.me/post/2020/regular/">阅读全文</a></p>
+            <p class="readmore"><a href="https://tihu.me/post/2020/2020-01-15-regular/">阅读全文</a></p>
         </div>
     </article>
     
     <article class="post">
         <header>
             <h1 class="post-title">
-                <a href="https://tihu.me/post/2020/focusrite/">新年新货：Focusrite 2i2与Casio CT-S200</a>
+                <a href="https://tihu.me/post/2020/2020-01-15-focusrite/">新年新货：Focusrite 2i2与Casio CT-S200</a>
             </h1>
         </header>
         <date class="post-meta meta-date">
@@ -129,7 +129,23 @@
         
         <div class="post-content">
             2020新年，说是不花钱，但还是添置了两台设备，算是久未增加的大件儿了。 首先是在leanham（刘主任）的介绍下，买了一台外置声卡，牌子和型号是我自己选的：来自Focusrite的外置声卡*Focusrite Scarlett Studio 2i2(第3代)*套装。包含Scarlett 2i2外置声卡主机，一个……
-            <p class="readmore"><a href="https://tihu.me/post/2020/focusrite/">阅读全文</a></p>
+            <p class="readmore"><a href="https://tihu.me/post/2020/2020-01-15-focusrite/">阅读全文</a></p>
+        </div>
+    </article>
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
+                <a href="https://tihu.me/post/2020/2020-01-16-%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%9B%B4%E6%96%B0%E8%84%9A%E6%9C%AC/">第一个blog更新脚本</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2020年1月15日
+        </date>
+        
+        <div class="post-content">
+            尝试写了一个很弱智的可执行脚本.sh 试一下。同时重命名了2020年的blog文件名。 cd ~ cd $ hugo #执行hugo编译动作 git pull (仓库A地址) master git add . git commit -m ' Updated source files' git push origin master cd public git pull (仓库B地址) master git add . git commit -m 'Update a blog' git push origin master date=$(date +%Y%m%d%H%M)……
+            <p class="readmore"><a href="https://tihu.me/post/2020/2020-01-16-%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%9B%B4%E6%96%B0%E8%84%9A%E6%9C%AC/">阅读全文</a></p>
         </div>
     </article>
     
@@ -229,22 +245,6 @@
         </div>
     </article>
     
-    <article class="post">
-        <header>
-            <h1 class="post-title">
-                <a href="https://tihu.me/post/2009/2009-11-12-email/">域名邮箱</a>
-            </h1>
-        </header>
-        <date class="post-meta meta-date">
-            2009年11月12日
-        </date>
-        
-        <div class="post-content">
-            最近发现QQ推出的域名邮箱功能，立刻拿出私家域名 tihu.org 测试，很快就通过验证，以后我的主打邮箱就是tihu[at]tihu.org 了。 昨天又注册了trir.cn的域名邮箱，准备拿来与casa、lean合用，结果超过24小时没有通过验证。仔细查看帮助，原来需要先将没有前缀的域名指向删除，……
-            <p class="readmore"><a href="https://tihu.me/post/2009/2009-11-12-email/">阅读全文</a></p>
-        </div>
-    </article>
-    
 
     
 
@@ -323,15 +323,19 @@
 <ul class="widget-list">
     
     <li>
-        <a href="https://tihu.me/post/2020/githugo/" title="跌跌撞撞地搞定了使用git同步代码仓库">跌跌撞撞地搞定了使用git同步代码仓库</a>
+        <a href="https://tihu.me/post/2020/2020-01-16-githugo/" title="跌跌撞撞地搞定了使用git同步代码仓库">跌跌撞撞地搞定了使用git同步代码仓库</a>
     </li>
     
     <li>
-        <a href="https://tihu.me/post/2020/regular/" title="正则表达式">正则表达式</a>
+        <a href="https://tihu.me/post/2020/2020-01-15-regular/" title="正则表达式">正则表达式</a>
     </li>
     
     <li>
-        <a href="https://tihu.me/post/2020/focusrite/" title="新年新货：Focusrite 2i2与Casio CT-S200">新年新货：Focusrite 2i2与Casio CT-S200</a>
+        <a href="https://tihu.me/post/2020/2020-01-15-focusrite/" title="新年新货：Focusrite 2i2与Casio CT-S200">新年新货：Focusrite 2i2与Casio CT-S200</a>
+    </li>
+    
+    <li>
+        <a href="https://tihu.me/post/2020/2020-01-16-%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%9B%B4%E6%96%B0%E8%84%9A%E6%9C%AC/" title="第一个blog更新脚本">第一个blog更新脚本</a>
     </li>
     
     <li>
@@ -356,10 +360,6 @@
     
     <li>
         <a href="https://tihu.me/post/2019/cunnv/" title="译异录之村女">译异录之村女</a>
-    </li>
-    
-    <li>
-        <a href="https://tihu.me/post/2019/xueyin/" title="雪银">雪银</a>
     </li>
     
 </ul>

@@ -13,29 +13,38 @@
     
     <item>
       <title>跌跌撞撞地搞定了使用git同步代码仓库</title>
-      <link>https://tihu.me/post/2020/githugo/</link>
+      <link>https://tihu.me/post/2020/2020-01-16-githugo/</link>
       <pubDate>Thu, 16 Jan 2020 17:35:26 +0800</pubDate>
       
-      <guid>https://tihu.me/post/2020/githugo/</guid>
+      <guid>https://tihu.me/post/2020/2020-01-16-githugo/</guid>
       <description>git方式更新blog 昨天立项flag，必须搞定git更新Hugo-blog，因为我发现由于历史文件过多，之前使用web方式更新的笨办法已经完全行不通了。hugo作为一个编译静态文件的blog程序，每当我新增一篇log，就有若干个文件发生了变化，如果我还用旧办法上传更新，简直要累</description>
     </item>
     
     <item>
       <title>正则表达式</title>
-      <link>https://tihu.me/post/2020/regular/</link>
+      <link>https://tihu.me/post/2020/2020-01-15-regular/</link>
       <pubDate>Wed, 15 Jan 2020 23:43:20 +0800</pubDate>
       
-      <guid>https://tihu.me/post/2020/regular/</guid>
+      <guid>https://tihu.me/post/2020/2020-01-15-regular/</guid>
       <description>昨天在从深圳回来的路上，松哥帮了我大忙，用两则小小的正则表达式拯救了我。 首先能说出这句话，说明我还不是一名程序员，虽然html也摸了这么多年了。但会写html能叫自己是程序员吗？！ 自从我将2005年至2010年间的blog备份复活之后，一直在一点一点地整理混乱的文档格式，按着我的</description>
     </item>
     
     <item>
       <title>新年新货：Focusrite 2i2与Casio CT-S200</title>
-      <link>https://tihu.me/post/2020/focusrite/</link>
+      <link>https://tihu.me/post/2020/2020-01-15-focusrite/</link>
       <pubDate>Wed, 15 Jan 2020 22:39:56 +0800</pubDate>
       
-      <guid>https://tihu.me/post/2020/focusrite/</guid>
+      <guid>https://tihu.me/post/2020/2020-01-15-focusrite/</guid>
       <description>2020新年，说是不花钱，但还是添置了两台设备，算是久未增加的大件儿了。 首先是在leanham（刘主任）的介绍下，买了一台外置声卡，牌子和型号是我自己选的：来自Focusrite的外置声卡*Focusrite Scarlett Studio 2i2(第3代)*套装。包含Scarlett 2i2外置声卡主机，一个</description>
+    </item>
+    
+    <item>
+      <title>第一个blog更新脚本</title>
+      <link>https://tihu.me/post/2020/2020-01-16-%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%9B%B4%E6%96%B0%E8%84%9A%E6%9C%AC/</link>
+      <pubDate>Wed, 15 Jan 2020 22:39:56 +0800</pubDate>
+      
+      <guid>https://tihu.me/post/2020/2020-01-16-%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%9B%B4%E6%96%B0%E8%84%9A%E6%9C%AC/</guid>
+      <description>尝试写了一个很弱智的可执行脚本.sh 试一下。同时重命名了2020年的blog文件名。 cd ~ cd $ hugo #执行hugo编译动作 git pull (仓库A地址) master git add . git commit -m &#39; Updated source files&#39; git push origin master cd public git pull (仓库B地址) master git add . git commit -m &#39;Update a blog&#39; git push origin master date=$(date +%Y%m%d%H%M)</description>
     </item>
     
     <item>
