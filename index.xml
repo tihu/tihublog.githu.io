@@ -6,10 +6,19 @@
     <description>Recent content on 醍醐堂記_TihuBlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 15 Jan 2020 23:43:20 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jan 2020 17:35:26 +0800</lastBuildDate>
     
 	<atom:link href="https://tihu.me/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>跌跌撞撞地搞定了使用git同步代码仓库</title>
+      <link>https://tihu.me/post/2020/githugo/</link>
+      <pubDate>Thu, 16 Jan 2020 17:35:26 +0800</pubDate>
+      
+      <guid>https://tihu.me/post/2020/githugo/</guid>
+      <description>git方式更新blog 昨天立项flag，必须搞定git更新Hugo-blog，因为我发现由于历史文件过多，之前使用web方式更新的笨办法已经完全行不通了。hugo作为一个编译静态文件的blog程序，每当我新增一篇log，就有若干个文件发生了变化，如果我还用旧办法上传更新，简直要累</description>
+    </item>
     
     <item>
       <title>正则表达式</title>
