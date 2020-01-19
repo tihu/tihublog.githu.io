@@ -64,7 +64,7 @@
                     
                     <a  href="https://tihu.me/tags/" title="标签">标签</a>
                     
-                    <a  href="https://tihu.me/archives/" title="归档">归档</a>
+                    <a  href="https://tihu.me/archives/" title="年份">年份</a>
                     
                     <a  href="https://tihu.me/about/" title="关于">关于</a>
                     
@@ -186,15 +186,15 @@
         
         <div class="post-meta">
             <span id="busuanzi_container_page_pv">|<span id="busuanzi_value_page_pv"></span><span>
-                    阅读</span></span>
+                    阅读 </span></span>|<span class="post-date">共452字</span>，阅读约<span class="more-meta"> 1 分钟</span>
         </div>
         
         
         
         <div class="post-content">
             <p>成华祥和里有条白色的狗，通体雪白，长得非常雄伟。街坊里没人知道这条犬多少岁，有七旬的老妪说，她小时候在这条巷子里玩时，这条犬就在附近游荡了。有城管负责打流浪犬，有偷狗的浪荡子试图抓捕，都莫名其妙地被咬伤，或是磕碰跌伤一类的祸事不断。失手的人多了，就再也没人敢打白犬的主意了。
-汶川大震那年，四月初七，白狗便在祥和里狂吠，退而呜咽，发出恸哭一样的叫声。次日大震发生，人们都觉得是它有所预知。白狗居无定所，尝有街坊收留它，最多盘踞三五日，便不知所终。常常有猫犬龟雀跟着它，从街区的房顶、墙隙里穿行而过。
-去岁，终有一日，白狗匍匐在祥和里一户日杂店门口便不再动弹，须臾死去。店主也有四十多岁，小时候就认得白狗，心里难过，找了装货物的实木箱子收殓犬尸，准备运到乡坝头老家的田地里埋掉。刚开始觉得木箱甚是沉重，远超一条狗应该有的重量，走到半路，渐渐地越来越轻，最终空无一物。摇晃木箱，觉得里边有东西在响动，打开一看，只留下一只玉犬，手掌大小，通体温润，有流光闪动。店主不敢私藏，拿去献给了红瓦寺的主持，供奉在弥勒座下。 </p>
+汶川大震那年，四月初七，白狗便在祥和里狂吠，退而呜咽，发出恸哭一样的叫声。次日大震发生，人们都觉得是它有所预知。白狗居无定所，尝有街坊收留它，最多盘踞三五日，便不知所终。常常有猫犬龟雀跟着它，从街区的房顶、墙隙里穿行而过。</p>
+<p>去岁，终有一日，白狗匍匐在祥和里一户日杂店门口便不再动弹，须臾死去。店主也有四十多岁，小时候就认得白狗，心里难过，找了装货物的实木箱子收殓犬尸，准备运到乡坝头老家的田地里埋掉。刚开始觉得木箱甚是沉重，远超一条狗应该有的重量，走到半路，渐渐地越来越轻，最终空无一物。摇晃木箱，觉得里边有东西在响动，打开一看，只留下一只玉犬，手掌大小，通体温润，有流光闪动。店主不敢私藏，拿去献给了红瓦寺的主持，供奉在弥勒座下。 </p>
 
         </div>
 
@@ -376,8 +376,50 @@
 </footer>
 
 
-    
-    <script type="text/javascript">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.2.8/raphael.min.js" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/flowchart/1.12.2/flowchart.min.js" crossorigin="anonymous"></script>
+        <script>(function () {
+                if (!window.flowchart) return;
+                const blocks = document.querySelectorAll('pre code.language-flowchart, pre code.language-flow');
+                for (let i = 0; i < blocks.length; i++) {
+                    const block = blocks[i];
+                    const rootElement = block.parentNode;
+                    const container = document.createElement('div');
+                    const id = `js-flowchart-diagrams-${i}`;
+                    container.id = id;
+                    container.className = 'align-center';
+                    container.setAttribute("style", "overFlow-x:auto");
+                    rootElement.parentNode.replaceChild(container, rootElement);
+                    const diagram = flowchart.parse(block.childNodes[0].nodeValue);
+                    diagram.drawSVG(id, window.flowchartDiagramsOptions ? window.flowchartDiagramsOptions : {});
+                }
+            })();
+        </script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/webfont/1.6.28/webfontloader.js" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg-min.js" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/js-sequence-diagrams/1.0.6/sequence-diagram-min.js" crossorigin="anonymous"></script>
+        <script>(function () {
+            if (!window.Diagram) return;
+            const blocks = document.querySelectorAll('pre code.language-sequence');
+            for (let i = 0; i < blocks.length; i++) {
+                const block = blocks[i];
+                
+                const rootElement = block.parentNode;
+                const container = document.createElement('div');
+                const id = `js-sequence-diag-${i}`;
+                container.id = id;
+                container.className = 'align-center';
+                container.setAttribute("style", "overFlow-x:auto");
+                rootElement.parentNode.replaceChild(container, rootElement);
+
+                const diagram = Diagram.parse(block.childNodes[0].nodeValue);
+                diagram.drawSVG(id, window.sequenceDiagramsOptions
+                    ? window.sequenceDiagramsOptions
+                    : { theme: 'simple' });
+            }
+        })();
+        </script><script type="text/javascript">
         window.MathJax = {
             tex2jax: {
                 inlineMath: [['$', '$']],

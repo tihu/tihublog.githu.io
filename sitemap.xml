@@ -1571,4 +1571,12 @@
     <loc>https://tihu.me/categories/</loc>
   </url>
   
+  <url>
+    <loc>https://tihu.me/archives/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tihu.me/search/</loc>
+  </url>
+  
 </urlset>

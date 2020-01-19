@@ -2702,5 +2702,23 @@
       <description>哈呼哈呼哈呼哈呼. 我巴巴地吐着舌头. 嘿咻嘿咻嘿咻嘿咻. 我肚皮贴地四脚放展. 呼哧呼哧呼哧呼哧. 我摇摇没毛的大尾巴. 哎呀哎呀哎呀哎呀. 我耷拉着眼睛看着前方. 呼噜呼噜呼噜呼噜. 我快进入可怕梦魇. 亲爱亲爱亲爱亲爱的. 你何时才来接我呀. 接我呀接我呀接我呀.</description>
     </item>
     
+    <item>
+      <title>年份</title>
+      <link>https://tihu.me/archives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tihu.me/archives/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>搜索</title>
+      <link>https://tihu.me/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tihu.me/search/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

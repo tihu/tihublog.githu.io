@@ -64,7 +64,7 @@
                     
                     <a  href="https://tihu.me/tags/" title="标签">标签</a>
                     
-                    <a  href="https://tihu.me/archives/" title="归档">归档</a>
+                    <a  href="https://tihu.me/archives/" title="年份">年份</a>
                     
                     <a  href="https://tihu.me/about/" title="关于">关于</a>
                     
@@ -186,7 +186,7 @@
         
         <div class="post-meta">
             <span id="busuanzi_container_page_pv">|<span id="busuanzi_value_page_pv"></span><span>
-                    阅读</span></span>
+                    阅读 </span></span>|<span class="post-date">共1747字</span>，阅读约<span class="more-meta"> 4 分钟</span>
         </div>
         
         
@@ -231,9 +231,9 @@
         
         <li><a href="/post/2014/2014-02-04-1000word/">也说每天一千字</a></li>
         
-        <li><a href="/post/2013/2013-06-09-reland/">马来西亚·热浪岛行程计划share</a></li>
-        
         <li><a href="/post/2013/2013-02-01-readnote/">一月读书笔记：令人惊艳的《死人经》</a></li>
+        
+        <li><a href="/post/2013/2013-06-09-reland/">马来西亚·热浪岛行程计划share</a></li>
         
         <li><a href="/post/2012/2012-12-16-RUA/">俄语每日一句</a></li>
         
@@ -387,8 +387,50 @@
 </footer>
 
 
-    
-    <script type="text/javascript">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.2.8/raphael.min.js" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/flowchart/1.12.2/flowchart.min.js" crossorigin="anonymous"></script>
+        <script>(function () {
+                if (!window.flowchart) return;
+                const blocks = document.querySelectorAll('pre code.language-flowchart, pre code.language-flow');
+                for (let i = 0; i < blocks.length; i++) {
+                    const block = blocks[i];
+                    const rootElement = block.parentNode;
+                    const container = document.createElement('div');
+                    const id = `js-flowchart-diagrams-${i}`;
+                    container.id = id;
+                    container.className = 'align-center';
+                    container.setAttribute("style", "overFlow-x:auto");
+                    rootElement.parentNode.replaceChild(container, rootElement);
+                    const diagram = flowchart.parse(block.childNodes[0].nodeValue);
+                    diagram.drawSVG(id, window.flowchartDiagramsOptions ? window.flowchartDiagramsOptions : {});
+                }
+            })();
+        </script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/webfont/1.6.28/webfontloader.js" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/snap.svg/0.5.1/snap.svg-min.js" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/js-sequence-diagrams/1.0.6/sequence-diagram-min.js" crossorigin="anonymous"></script>
+        <script>(function () {
+            if (!window.Diagram) return;
+            const blocks = document.querySelectorAll('pre code.language-sequence');
+            for (let i = 0; i < blocks.length; i++) {
+                const block = blocks[i];
+                
+                const rootElement = block.parentNode;
+                const container = document.createElement('div');
+                const id = `js-sequence-diag-${i}`;
+                container.id = id;
+                container.className = 'align-center';
+                container.setAttribute("style", "overFlow-x:auto");
+                rootElement.parentNode.replaceChild(container, rootElement);
+
+                const diagram = Diagram.parse(block.childNodes[0].nodeValue);
+                diagram.drawSVG(id, window.sequenceDiagramsOptions
+                    ? window.sequenceDiagramsOptions
+                    : { theme: 'simple' });
+            }
+        })();
+        </script><script type="text/javascript">
         window.MathJax = {
             tex2jax: {
                 inlineMath: [['$', '$']],
