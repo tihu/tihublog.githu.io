@@ -39,6 +39,8 @@
 
     
     
+        <link rel="stylesheet" href='/css/font-awesome.min.css'>
+    
         <link rel="stylesheet" href='/css/dark.css'>
     
 </head>
@@ -188,6 +190,7 @@
         </div>
         
         
+        
         <div class="post-content">
             <p>我是用的这套hugo theme <a href="https://github.com/flysnow-org/maupassant-hugo">maupassant</a>作者默认支持了两种评论系统，<em>disqus</em>和<a href="https://utteranc.es/?installation_id=6263895&amp;setup_action=install">Utterances</a></p>
 <p>disqus安装失败，估计和其他blogger说的一样，被墙了。其实我已经注册成功，但配置以后一直不显示评论框。于是今晚试了一下Utterances，一击成功！复述一下配置过程：</p>
@@ -206,14 +209,16 @@
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml">[params.utteranc]
-    enable = true
-    repo = &#34;tihu/tihu-blog-comment&#34;    # 存储评论的Repo，格式为 owner/repo
-    issueTerm = &#34;pathname&#34;  #表示你选择以那种方式让github issue的评论和你的文章关联。
-    theme = &#34;github-dark&#34; # 样式主题，有六种样式，基本够用了。
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml">[params.utteranc]
+    enable = <span style="color:#000;font-weight:bold">true</span>
+    repo = <span style="color:#d14">&#34;tihu/tihu-blog-comment&#34;</span>    <span style="color:#998;font-style:italic"># 存储评论的Repo，格式为 owner/repo</span>
+    issueTerm = <span style="color:#d14">&#34;pathname&#34;</span>  <span style="color:#998;font-style:italic">#表示你选择以那种方式让github issue的评论和你的文章关联。</span>
+    theme = <span style="color:#d14">&#34;github-dark&#34;</span> <span style="color:#998;font-style:italic"># 样式主题，有六种样式，基本够用了。</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>5.如果不直接支持，那就得折腾一下了，主要难点在于要修改theme对应页面片的样式，不过Utterances在安装页面已经帮你生成好代码片段了，复制粘贴即可；</p>
+</div><ol start="5">
+<li>如果不直接支持，那就得折腾一下了，主要难点在于要修改theme对应页面片的样式，不过Utterances在安装页面已经帮你生成好代码片段了，复制粘贴即可；</li>
+</ol>
 <pre><code class="language-script" data-lang="script">&lt;script src=&quot;https://utteranc.es/client.js&quot;
         repo=&quot;tihu/tihu-blog-comment&quot;
         issue-term=&quot;pathname&quot;

@@ -28,12 +28,14 @@
 	var delDark = function() {
 		$('body').removeClass('darkstyle');
 		$('.btn-dark').text('暗');
-		cookie('darkstyle', 0);
+		cookie('darkstyle', 0, -3600);
 	};
-	var is_dark = cookie('darkstyle');
+	var is_dark = parseInt(cookie('darkstyle'));
 	$('body').append('<a href="javascript:;" class="btn-dark"></a>');
 	if (is_dark) {
 		setDark();
+	} else {
+		delDark();
 	}
 	$('.btn-dark').click(function(o) {
 		if ($('body').hasClass('darkstyle')) {

@@ -13,3 +13,5 @@
 .darkstyle .post-copyright a { color: #DDD; }
 .darkstyle .meta-tags ul a { background-color: #666; }
 .darkstyle .meta-tags ul a:before { border-right-color: #666; }
+
+.readmore a { font-size: 12px; }
