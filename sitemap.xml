@@ -3,27 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://tihu.me/post/</loc>
+    <lastmod>2020-01-19T18:29:39+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tihu.me/tags/</loc>
+    <lastmod>2020-01-19T18:29:39+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tihu.me/tags/%E5%85%AD%E5%B7%9E%E6%9D%82%E8%B0%88/</loc>
+    <lastmod>2020-01-19T18:29:39+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tihu.me/post/2020/2020-01-19-podcast/</loc>
+    <lastmod>2020-01-19T18:29:39+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tihu.me/</loc>
+    <lastmod>2020-01-19T18:29:39+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tihu.me/tags/Cyber-Life/</loc>
     <lastmod>2020-01-17T01:36:39+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://tihu.me/post/2020/2020-01-17-comment/</loc>
-    <lastmod>2020-01-17T01:36:39+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tihu.me/post/</loc>
-    <lastmod>2020-01-17T01:36:39+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tihu.me/tags/</loc>
-    <lastmod>2020-01-17T01:36:39+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tihu.me/</loc>
     <lastmod>2020-01-17T01:36:39+08:00</lastmod>
   </url>
   
