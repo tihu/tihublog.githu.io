@@ -6,9 +6,28 @@
     <description>Recent content in Categories on 醍醐堂記_TihuBlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
+    <lastBuildDate>Wed, 25 Dec 2019 09:51:35 +0000</lastBuildDate>
     
 	<atom:link href="https://tihu.me/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>非虚构类</title>
+      <link>https://tihu.me/categories/%E9%9D%9E%E8%99%9A%E6%9E%84%E7%B1%BB/</link>
+      <pubDate>Wed, 25 Dec 2019 09:51:35 +0000</pubDate>
+      
+      <guid>https://tihu.me/categories/%E9%9D%9E%E8%99%9A%E6%9E%84%E7%B1%BB/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>虚构类</title>
+      <link>https://tihu.me/categories/%E8%99%9A%E6%9E%84%E7%B1%BB/</link>
+      <pubDate>Sun, 13 Jan 2019 08:36:54 -0700</pubDate>
+      
+      <guid>https://tihu.me/categories/%E8%99%9A%E6%9E%84%E7%B1%BB/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
