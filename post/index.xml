@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 醍醐堂記_TihuBlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 19 Jan 2020 18:29:39 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jan 2020 23:08:11 +0800</lastBuildDate>
     
 	<atom:link href="https://tihu.me/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo成功添加字数统计和阅读时间</title>
+      <link>https://tihu.me/post/2020/2020-01-19-wordcount/</link>
+      <pubDate>Sun, 19 Jan 2020 23:08:11 +0800</pubDate>
+      
+      <guid>https://tihu.me/post/2020/2020-01-19-wordcount/</guid>
+      <description>hugo还真是厉害！看到别人的blog里能显示”本文共XXX字，阅读大约需要XX分钟“，感觉挺高级的。话说阅读推荐时间最早还是在可能吧的公众号看到的。 仔细研究了一下，又看了一下maupassant的readme，发现hugo有函数支持这两个功能需求，于是动手搞了一下，一次成功！ 需</description>
+    </item>
     
     <item>
       <title>新播客节目2082FM上线，以及播客平台管理端简单评测</title>
