@@ -3,6 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://tihu.me/categories/</loc>
+    <lastmod>2020-01-28T00:18:33+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tihu.me/post/</loc>
+    <lastmod>2020-01-28T00:18:33+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tihu.me/tags/</loc>
+    <lastmod>2020-01-28T00:18:33+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tihu.me/tags/%E5%85%AD%E5%B7%9E%E6%9D%82%E8%AE%B0/</loc>
+    <lastmod>2020-01-28T00:18:33+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tihu.me/post/2020/2020-01-28-thehotzone/</loc>
+    <lastmod>2020-01-28T00:18:33+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tihu.me/</loc>
+    <lastmod>2020-01-28T00:18:33+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tihu.me/categories/%E9%9D%9E%E8%99%9A%E6%9E%84%E7%B1%BB/</loc>
+    <lastmod>2020-01-28T00:18:33+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tihu.me/tags/Cyber-Life/</loc>
     <lastmod>2020-01-19T23:08:11+08:00</lastmod>
   </url>
@@ -10,26 +45,6 @@
   <url>
     <loc>https://tihu.me/post/2020/2020-01-19-wordcount/</loc>
     <lastmod>2020-01-19T23:08:11+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tihu.me/post/</loc>
-    <lastmod>2020-01-19T23:08:11+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tihu.me/tags/</loc>
-    <lastmod>2020-01-19T23:08:11+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tihu.me/</loc>
-    <lastmod>2020-01-19T23:08:11+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tihu.me/tags/%E5%85%AD%E5%B7%9E%E6%9D%82%E8%B0%88/</loc>
-    <lastmod>2020-01-19T18:29:39+08:00</lastmod>
   </url>
   
   <url>
@@ -53,11 +68,6 @@
   </url>
   
   <url>
-    <loc>https://tihu.me/tags/%E5%85%AD%E5%B7%9E%E6%9D%82%E8%AE%B0/</loc>
-    <lastmod>2020-01-15T23:43:20+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://tihu.me/post/2020/2020-01-15-regular/</loc>
     <lastmod>2020-01-15T23:43:20+08:00</lastmod>
   </url>
@@ -68,22 +78,7 @@
   </url>
   
   <url>
-    <loc>https://tihu.me/categories/</loc>
-    <lastmod>2019-12-25T09:51:35+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://tihu.me/post/2019/2019-12-25-hugoooo/</loc>
-    <lastmod>2019-12-25T09:51:35+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tihu.me/tags/%E6%88%90%E9%83%BD%E5%BC%82%E9%97%BB%E6%9D%82%E5%BD%95/</loc>
-    <lastmod>2019-12-25T09:51:35+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tihu.me/categories/%E9%9D%9E%E8%99%9A%E6%9E%84%E7%B1%BB/</loc>
     <lastmod>2019-12-25T09:51:35+00:00</lastmod>
   </url>
   
@@ -93,17 +88,22 @@
   </url>
   
   <url>
+    <loc>https://tihu.me/tags/%E6%88%90%E9%83%BD%E5%BC%82%E9%97%BB%E6%9D%82%E5%BD%95/</loc>
+    <lastmod>2019-01-16T08:36:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tihu.me/categories/%E8%99%9A%E6%9E%84%E7%B1%BB/</loc>
+    <lastmod>2019-01-16T08:36:54+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tihu.me/post/2019/2019-01-16-jiangshu/</loc>
     <lastmod>2019-01-16T08:36:54+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://tihu.me/post/2019/2019-01-13-fengfengzi/</loc>
-    <lastmod>2019-01-13T08:36:54-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tihu.me/categories/%E8%99%9A%E6%9E%84%E7%B1%BB/</loc>
     <lastmod>2019-01-13T08:36:54-07:00</lastmod>
   </url>
   
