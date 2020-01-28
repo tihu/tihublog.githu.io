@@ -17,7 +17,7 @@
       <pubDate>Sun, 19 Jan 2020 23:08:11 +0800</pubDate>
       
       <guid>https://tihu.me/post/2020/2020-01-19-wordcount/</guid>
-      <description>hugo还真是厉害！看到别人的blog里能显示”本文共XXX字，阅读大约需要XX分钟“，感觉挺高级的。话说阅读推荐时间最早还是在可能吧的公众</description>
+      <description>hugo还真是厉害！看到别人的blog里能显示”本文共XXX字，阅读大约需要XX分钟“，感觉挺高级的。话说阅读推荐时间最早还是在可能吧的公众号看到的。 仔细研究了一下，又看了一下maupassant的readme，发现hugo有函数支持这两个功能需求，于是动手搞了一下，一次成功！ 需</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       <pubDate>Fri, 17 Jan 2020 01:36:39 +0800</pubDate>
       
       <guid>https://tihu.me/post/2020/2020-01-17-comment/</guid>
-      <description>我是用的这套hugo theme maupassant作者默认支持了两种评论系统，disqus和Utterances disqus安装失败，估计和其他bl</description>
+      <description>我是用的这套hugo theme maupassant作者默认支持了两种评论系统，disqus和Utterances disqus安装失败，估计和其他blogger说的一样，被墙了。其实我已经注册成功，但配置以后一直不显示评论框。于是今晚试了一下Utterances，一击成功！复述一下配置过程</description>
     </item>
     
     <item>
@@ -35,7 +35,7 @@
       <pubDate>Thu, 16 Jan 2020 18:39:56 +0800</pubDate>
       
       <guid>https://tihu.me/post/2020/2020-01-16-firstSH/</guid>
-      <description>尝试写了一个很弱智的可执行脚本.sh 试一下。同时重命名了2020年的blog文件名。 cd ~ cd $ hugo #执行hugo编译动作 git pull (仓库A地址) master git add</description>
+      <description>尝试写了一个很弱智的可执行脚本.sh 试一下。同时重命名了2020年的blog文件名。 cd ~ cd $ hugo #执行hugo编译动作 git pull (仓库A地址) master git add . git commit -m &#39; Updated source files&#39; git push origin master cd public git pull (仓库B地址) master git add . git commit -m &#39;Update a blog&#39; git push origin master date=$(date +%Y%m%d%H%M)</description>
     </item>
     
     <item>
@@ -44,7 +44,7 @@
       <pubDate>Thu, 16 Jan 2020 17:35:26 +0800</pubDate>
       
       <guid>https://tihu.me/post/2020/2020-01-16-githugo/</guid>
-      <description>git方式更新blog 昨天立项flag，必须搞定git更新Hugo-blog，因为我发现由于历史文件过多，之前使用web方式更新的笨办法已经</description>
+      <description>git方式更新blog 昨天立项flag，必须搞定git更新Hugo-blog，因为我发现由于历史文件过多，之前使用web方式更新的笨办法已经完全行不通了。hugo作为一个编译静态文件的blog程序，每当我新增一篇log，就有若干个文件发生了变化，如果我还用旧办法上传更新，简直要累</description>
     </item>
     
     <item>
@@ -53,7 +53,7 @@
       <pubDate>Thu, 25 Dec 2014 08:36:54 +0000</pubDate>
       
       <guid>https://tihu.me/post/2014/2014-12-25-webtools/</guid>
-      <description>这一篇讲讲WEB开发中设计师用到的工具，基本涉及了设计师工作的全流程。事实上，一个团队的做事风格很大程度上取决于leader的背景，核心是设</description>
+      <description>这一篇讲讲WEB开发中设计师用到的工具，基本涉及了设计师工作的全流程。事实上，一个团队的做事风格很大程度上取决于leader的背景，核心是设计与核心是技术的团队，做事风格也不尽相同。在很多一流团队中，设计师起到了灵魂作用，因而也出现了“设计主导产品流”。在现在的团队中，对设计师的</description>
     </item>
     
     <item>
@@ -62,7 +62,7 @@
       <pubDate>Wed, 24 Dec 2014 08:36:54 +0000</pubDate>
       
       <guid>https://tihu.me/post/2014/2014-12-24-webtools/</guid>
-      <description>上周在北京听了一位大牛的内部分享，回来整理了一下手头现在移动端web开发的工具流。以下文字基本都是copy官方说明。 //部分才是我的补充。一</description>
+      <description>上周在北京听了一位大牛的内部分享，回来整理了一下手头现在移动端web开发的工具流。以下文字基本都是copy官方说明。 //部分才是我的补充。一切工具和工作流都是围绕【产品】→【设计】→【前端】→【测试】→【交付】这个体系循环进行的。 GitHub 存放使用Git版本控制的软件代码和内容项目。除了</description>
     </item>
     
     <item>
@@ -71,7 +71,7 @@
       <pubDate>Tue, 15 Apr 2014 08:36:54 +0000</pubDate>
       
       <guid>https://tihu.me/post/2014/2014-04-15-mobile/</guid>
-      <description>marioji计鸣钟 用户画像 诉求内容 场景区分 三大要素 场景：时间碎片化 地点： 善用首屏 导航式 入口式构建 用户路径 菜单：底部 侧划 底部➕子菜单。菜单结</description>
+      <description>marioji计鸣钟 用户画像 诉求内容 场景区分 三大要素 场景：时间碎片化 地点： 善用首屏 导航式 入口式构建 用户路径 菜单：底部 侧划 底部➕子菜单。菜单结合入口式 1乘2结合式 万能的红点 核心场景➕第二场景（商业化分流） less is more 线性操作是王道 有限的无限横划 有限的无限竖划 活用push通道 移动端操作逻辑</description>
     </item>
     
     <item>
@@ -80,7 +80,7 @@
       <pubDate>Sun, 23 Feb 2014 08:36:54 +0000</pubDate>
       
       <guid>https://tihu.me/post/2014/2014-02-23-moblieapps/</guid>
-      <description>春节前手机刷了不干净的“冰激淋三明治”，删不掉的垃圾Apps不说，耗电量还极高，早晨满电出门，到公司就剩60%的电量了。凑活了一个月，重新刷</description>
+      <description>春节前手机刷了不干净的“冰激淋三明治”，删不掉的垃圾Apps不说，耗电量还极高，早晨满电出门，到公司就剩60%的电量了。凑活了一个月，重新刷了“果冻豆”。在同步通讯录，重装Apps的静默期，盘点了一下手机上安装的应用，连同系统自带的短信电话一齐，竟有八十九个图标之多（有多少人数过</description>
     </item>
     
   </channel>
