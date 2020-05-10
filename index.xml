@@ -6,10 +6,19 @@
     <description>Recent content on 醍醐堂記_TihuBlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 04 May 2020 22:04:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2020 22:05:32 +0800</lastBuildDate>
     
 	<atom:link href="https://tihu.me/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>播客手账：十分钟上手异地远程录音</title>
+      <link>https://tihu.me/post/2020/2020-05-06-Podcasts01/</link>
+      <pubDate>Wed, 06 May 2020 22:05:32 +0800</pubDate>
+      
+      <guid>https://tihu.me/post/2020/2020-05-06-Podcasts01/</guid>
+      <description>引言：播客手账做什么 [2082](https://anchor.fm/2082) 是一档由三个处在不同时区的好友共同制作的沙龙型闲谈播客，我们用100天制作了25期节目，平均每4天一期。在这期间，为了克服远程多端录音的困难，提升节目音质和沟通效果，没少踩坑。特别是大多数坑在中文互联网中可搜索到的成熟现成解决方案并不多，所以我们决定不定期写</description>
+    </item>
     
     <item>
       <title>2020年4月读书书单：微信读书，以后我还有书读吗？</title>
